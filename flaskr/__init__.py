@@ -1,6 +1,5 @@
 import os
 from flaskr.app import app
-import flask
 
 def create_app(test_config=None):
   app.config.from_mapping(

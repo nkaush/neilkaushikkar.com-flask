@@ -44,8 +44,8 @@
       "start": "June 2020",
       "end": "August 2020",
       "description": [
-        "This internship was conducted remotely through NASA Ames Research Center and USRA.",
-        "I aided the effort to track the effect of COVID-19 on air traffic patterns in the United States. I constructed a data pipeline to consolidate and structure data from JHU, the Opensky Network, FAA, BTS, and NASA's Sherlock Data Warehouse. I also implemented random forest machine learning algorithms to model air traffic in the US and predict air traffic patterns in the future."
+        "This internship was conducted remotely through NASA Ames Research Center and the Universities Space Research Association (USRA).",
+        "I aided the NASA Aeronatics Research Institute's (NARI) effort to track the effect of COVID-19 on air traffic patterns in the United States. I constructed a data pipeline to consolidate and structure data from JHU, the Opensky Network, FAA, BTS, and NASA's Sherlock Data Warehouse. I also implemented random forest machine learning algorithms to model air traffic in the US and predict air traffic patterns in the future."
       ],
       "location": "Mountain View, CA"
     },

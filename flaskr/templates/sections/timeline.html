@@ -21,7 +21,7 @@
             {% else %}
               <li>
             {% endif %}
-                <a href="{{ experience['link'] }}" target="blank">
+                <a href="{{ experience['link'] }}" target="_blank" rel="noopener noreferrer">
                   <div class="timeline-image">
                     <img class="img-circle img-responsive" src="{{ experience['image_path'] }}" alt="{{ experience['company'] }}">
                   </div>
@@ -30,7 +30,7 @@
                   <div class="timeline-heading">
                     <h5>{{ experience['start'] }} - {{ experience['end'] }}</h5>
                     <h4 class="subheading">
-                      <a href="{{ experience['link'] }}" target="blank">{{ experience['company'] }}</a>
+                      <a href="{{ experience['link'] }}" target="_blank" rel="noopener noreferrer">{{ experience['company'] }}</a>
                       <br>{{ experience['position'] }}
                     </h4>
                     <i>{{ experience['location'] }}</i>
