@@ -7,12 +7,10 @@ data = load(open('data.json'))
 @app.route('/')
 def index():
     data = load(open('data.json'))
-    timeline_data = data['timeline']
-
-    links = data['links']
-
+    
     return render_template('index.html', full_name='Neil Kaushikkar', 
-                           timeline_data=timeline_data, links=links)
+                           timeline_data=data['timeline'], links=data['links'],
+                           skills=data['skills'])
 
 @app.route('/static/<path:path>')
 def send_static(path):

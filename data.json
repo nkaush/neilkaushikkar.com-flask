@@ -65,5 +65,27 @@
     "instagram": "https://www.instagram.com/neil.kaushikkar/",
     "gmail": "neil.kaushikkar@gmail.com",
     "illinois_email": "neilk3@illinois.edu"
-  }
+  },
+  "skills": [
+    {
+      "name": "Rust",
+      "icon": "<img class=\"bg-primary img-circle img-responsive\" src=\"/static/images/rust-primary.png\" alt=\"rust\">",
+      "description": "I teach it."
+    },
+    {
+      "name": "Java",
+      "icon": "<i class=\"fa icon-java-bold fa-2x\" style=\"padding-top:20px; padding-left:25px\"></i>",
+      "description": "I learned it."
+    },
+    {
+      "name": "C++",
+      "icon": "<i class=\"fa icon-cplusplus fa-2x\" style=\"padding-top:26px\"></i>",
+      "description": "I am learning it."
+    },
+    {
+      "name": "Python",
+      "icon": "<i class=\"fa icon-python fa-2x\" style=\"padding-top:24px; padding-left:12px\"></i>",
+      "description": "I know it."
+    }
+  ]
 }
