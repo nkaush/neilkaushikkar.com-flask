@@ -30,7 +30,10 @@
                   <div class="timeline-heading">
                     <h5>{{ experience['start'] }} - {{ experience['end'] }}</h5>
                     <h4 class="subheading">
-                      <a href="{{ experience['link'] }}" target="blank">{{ experience['company'] }}</a><br>{{ experience['location'] }}</h4>
+                      <a href="{{ experience['link'] }}" target="blank">{{ experience['company'] }}</a>
+                      <br>{{ experience['position'] }}
+                    </h4>
+                    <i>{{ experience['location'] }}</i>
                   </div>
                   <div class="timeline-body">
                     {% for desc in experience['description'] %}

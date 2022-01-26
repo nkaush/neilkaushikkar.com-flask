@@ -2,6 +2,7 @@
   "timeline": [
     {
       "company": "CS 128 Honors @ UIUC",
+      "position": "Undergraduate Instructor",
       "link": "https://honors.cs128.org/",
       "image_path": "/static/images/128-honors-1.png",
       "start": "January 2022",
@@ -13,6 +14,7 @@
     },
     {
       "company": "Disruption Lab @ Gies College of Business",
+      "position": "Incubator Program Instructor",
       "link": "https://giesgroups.illinois.edu/disruptionlab/home/",
       "image_path": "/static/images/gies2.png",
       "start": "January 2022",
@@ -24,6 +26,7 @@
     },
     {
       "company": "COUNTRY Financial",
+      "position": "Software Engineer Intern",
       "link": "https://countryfinancial.com/",
       "image_path": "/static/images/country2.png",
       "start": "January 2021",
@@ -35,6 +38,7 @@
     },
     {
       "company": "NASA",
+      "position": "Software Engineer Intern",
       "link": "https://nasa.gov/",
       "image_path": "/static/images/nasa2.png",
       "start": "June 2020",
@@ -47,6 +51,7 @@
     },
     {
       "company": "NASA",
+      "position": "Software Engineer Intern",
       "link": "https://nasa.gov/",
       "image_path": "/static/images/nasa2.png",
       "start": "June 2019",
@@ -86,6 +91,16 @@
       "name": "Python",
       "icon": "<i class=\"fa icon-python fa-2x\" style=\"padding-top:24px; padding-left:12px\"></i>",
       "description": "I know it."
+    },
+    {
+      "name": "Docker",
+      "icon": "<i class=\"fa icon-docker fa-2x\" style=\"padding-top:24px; padding-left:12px\"></i>",
+      "description": "I used it."
+    },
+    {
+      "name": "Microsoft Azure",
+      "icon": "<img class=\"bg-primary img-circle img-responsive\" src=\"/static/images/azure.png\" alt=\"Microsoft Azure\">",
+      "description": "I used it."
     }
   ]
 }
