@@ -1,0 +1,49 @@
+<!-- Intro -->
+<section class="content-section" style="background:#edeeef; padding-top: 4rem; padding-bottom: 6rem">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-lg-4">
+        <div class="team-member" style="margin-bottom:24px">
+          <img src="{{ introduction['profile'] }}" style="border:8px solid white; width:350px!important; height:100%" class="img-responsive img-circle">
+          <div id="social1" class="mt-4">
+            <ul class="list-inline social-buttons">
+              <li class="text-center">
+                <a href="{{ links['instagram'] }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+              </li>
+              <li class="text-center">
+                <a href="{{ links['linkedin'] }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+              </li>
+              <li class="text-center">
+                <a href="{{ links['github'] }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-8" id="intro-section" style="margin-bottom: 1rem; margin-top:1rem">
+        <h4>{{ full_name }}</h4>
+        <p class="lead"><b>{{ introduction['title'] }}</b></p>
+        {% for par in introduction['paragraphs'] %}
+        <p class="lead" style="font-size: 14pt">{{ par }} </p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <h2 class="mb-4">Learn more about me:</h2>
+        <a class="btn btn-light btn-xl ml-2 mr-2 mb-3 js-scroll-trigger about-btn" href="#skills">
+          Skills</a>
+        <a class="btn btn-light btn-xl ml-2 mr-2 mb-3 js-scroll-trigger about-btn" href="#timeline">
+          Work Experience</a>
+        <a class="btn btn-light btn-xl ml-2 mr-2 mb-3 js-scroll-trigger about-btn" href="#projects">
+          Projects</a>
+        <a class="btn btn-light btn-xl ml-2 mr-2 mb-3 js-scroll-trigger about-btn" href="#research">
+          Research</a>
+        <a class="btn btn-dark btn-xl ml-2 mr-2 mb-3 about-btn" href="/resume" target="blank">
+          <i class="fa fa-file-pdf-o"></i> Resume</a>
+      </div>
+    </div>
+  </div>
+</section>

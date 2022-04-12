@@ -10,7 +10,9 @@ def index():
     
     return render_template('index.html', full_name='Neil Kaushikkar', 
                            timeline_data=data['timeline'], links=data['links'],
-                           skills=data['skills'])
+                           skills=data['skills'], introduction=data['introduction'],
+                           background_image=data['background_image'],
+                           masthead_profile=data['masthead_profile'])
 
 @app.route('/static/<path:path>')
 def send_static(path):

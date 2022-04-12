@@ -1,0 +1,13 @@
+<section class="content-section" style="padding-top: 2rem; padding-bottom: 2rem" id="about">
+  <aside class="clients">
+    <div class="row">
+      <div class="col-md-12" style="text-align: center">
+        {% for aff in affiliations %}
+        <a href="{{ aff['link'] }}" target="_blank" rel="noopener noreferrer" class="client-link">
+          <img class="center-block" src="{{ aff['img'] }}" alt="{{ aff['alt'] }}">
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </aside>
+</section>
