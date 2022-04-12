@@ -1,7 +1,12 @@
-SHELL := /bin/bash
+APP_EXPORT = export FLASK_APP='flaskr/app.py'
+
+DEBUG_ENV_EXPORT = export FLASK_ENV=development
+PROD_ENV_EXPORT = export FLASK_ENV=production
+
+DEBUG = export FLASK_DEBUG=1
 
 debug: 
-	source ./env.sh && flask run
+	$(APP_EXPORT) && $(DEBUG_ENV_EXPORT) && $(DEBUG) && flask run
 
-production: 
-	waitress-serve --call 'flaskr:app'
+prod: 
+	$(APP_EXPORT) && $(PROD_ENV_EXPORT) && python3 -m flask run --host=0.0.0.0

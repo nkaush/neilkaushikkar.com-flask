@@ -14,6 +14,10 @@ def index():
                            background_image=data['background_image'],
                            masthead_profile=data['masthead_profile'])
 
+@app.route('/static/images/<path:path>')
+def send_static_img_reroute(path):
+    return send_from_directory('static/img', path)
+
 @app.route('/static/<path:path>')
 def send_static(path):
     return send_from_directory('static', path)
@@ -28,3 +32,12 @@ def send_mail(path):
         out = '\n'.join([request.form[key] for key in ['name', 'phone', 'email', 'message']])
 
         return out
+
+def create_app():
+   return app
+
+if __name__ == "__main__":
+    # serving the app directly
+    # app.run(host='0.0.0.0')
+    from waitress import serve
+    serve(app, host="0.0.0.0", port=5000)
